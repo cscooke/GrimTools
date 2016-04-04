@@ -42,3 +42,17 @@ Network Trash Folder
 Temporary Items
 .apdisk
 js/items.js
+
+# Dependencies
+node_modules
+app/bower_components
+
+# Generated Files
+app/index.html
+app/assets/css/*
+
+# Log Files
+*.log
+
+# Cache Files
+.sass-cache
