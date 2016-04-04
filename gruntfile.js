@@ -14,6 +14,7 @@ module.exports = function (grunt) {
   time(grunt);
 
   grunt.registerTask('dev', [
+    'sass',
     'includeSource',
     'wiredep',
     'connect',

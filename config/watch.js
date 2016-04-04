@@ -3,9 +3,15 @@ module.exports = {
   options: {
     livereload: true
   },
+  sass: {
+    files: ['app/**/*.scss'],
+    tasks: ['sass:css'],
+    options: {
+      livereload: false
+    }
+  },
   css: {
-    files: ['app/**/*.css'],
-    tasks: []
+    files: ['app/assets/css/*.css']
   },
   js: {
     files: ['app/**/*.js'],
@@ -13,13 +19,15 @@ module.exports = {
       //
     ]
   },
-  templates: {
+  partials: {
     files: [
+      'app/**/*.partial.html',
       'templates/*.tpl.html',
       '!app/index.html'
     ],
     tasks: [
-      //
+     'includeSource',
+      'wiredep'
     ]
   }
 };
