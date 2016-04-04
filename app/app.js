@@ -3,7 +3,7 @@ angular.module('grimTools', [
   'ngAnimate',
   'ngMaterial',
   'ngRoute',
-  'grimTools.home'
+  'grimTools.inventory'
 ])
 
 .config([
