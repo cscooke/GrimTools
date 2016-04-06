@@ -3,7 +3,8 @@ angular.module('grimTools', [
   'ngAnimate',
   'ngMaterial',
   'ngRoute',
-  'grimTools.inventory'
+  'grimTools.inventory',
+  'grimTools.items'
 ])
 
 .config([
@@ -11,10 +12,10 @@ angular.module('grimTools', [
   '$locationProvider',
 
   function ($routeProvider, $locationProvider) {
+    $locationProvider.html5Mode(true);
+
     $routeProvider.otherwise({
       redirectTo: '/'
     });
-
-    $locationProvider.html5Mode(true);
   }
 ])
