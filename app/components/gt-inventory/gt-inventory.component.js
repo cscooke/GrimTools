@@ -17,7 +17,7 @@ angular.module('grimTools.inventory', [
 
   function () {
     var slots = {
-      head: null,
+      head: {name: 'Faceguard of Perdition'},
       chest: null,
       belt: null,
       gloves: null,
@@ -29,6 +29,9 @@ angular.module('grimTools.inventory', [
     return {
       equip: function (slot, item) {
         slots[slot] = item;
+      },
+      unequip: function (slot) {
+        slots[slot] = null;
       },
       getItems: function () {
         return slots;
