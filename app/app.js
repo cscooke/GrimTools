@@ -19,3 +19,9 @@ angular.module('grimTools', [
     });
   }
 ])
+
+.filter('capitalize', function () {
+  return function (s) {
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  };
+})

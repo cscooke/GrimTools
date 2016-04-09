@@ -10,13 +10,14 @@
 
         <md-card-content>
             <md-list>
+                <div ng-repeat="(slot, item) in $ctrl.inventory.getItems()">
                 <md-list-item layout layout-align="center center">
                     <div flex="10">
                         <md-icon class="material-icons">grade</md-icon>
                     </div>
 
                     <div flex="70">
-                        Item name
+                        {{item.name || slot | capitalize}}
                     </div>
 
                     <div flex="10">
@@ -27,6 +28,7 @@
                         <md-icon class="material-icons">delete</md-icon>
                     </div>
                 </md-list-item>
+                </div>
             </md-list>
         </md-card-content>
     </md-card>
