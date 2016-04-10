@@ -6,7 +6,7 @@ angular.module('grimTools.items', [
   '$routeProvider',
 
   function ($routeProvider) {
-    $routeProvider.when('/items', {
+    $routeProvider.when('/items/:slot', {
       template: '<gt-items></gt-items>'
     });
   }
