@@ -13,26 +13,13 @@ angular.module('grimTools.items', [
 ])
 
 .factory('gtItems', [
-  //,
+  '$resource',
 
-  function () {
-    // TODO: read from file
+  function ($resource) {
     var items = {
-      'rare': {
-        'helm': [
-          {name: 'Milton\'s Casque'}
-        ]
-      },
-      'epic': {
-        'helm': [
-          {name: 'Faceguard of Perdition'}
-        ]
-      },
-      'legendary': {
-        'helm': [
-          {name: 'Maw of Despair'}
-        ]
-      }
+      'rare': $resource('/data/rare.json').get(),
+      'epic': $resource('/data/epic.json').get(),
+      'legendary': $resource('/data/legendary.json').get()
     };
 
     return {

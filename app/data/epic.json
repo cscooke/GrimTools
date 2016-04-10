@@ -1,0 +1,58 @@
+{
+  "helm": [
+    {
+      "name": "Stormcaller's Circlet"
+    },
+    {
+      "name": "Berserker's Cowl" 
+    }
+  ],
+  "chest": [
+    {
+      "name": "Nighthunter's Chestguard"
+    },
+    {
+      "name": "Gunslinger's Jacket"
+    }
+  ],
+  "belt": [
+    {
+      "name": "Warchief's Glory"
+    },
+    {
+      "name": "Headhunter's Trophy"
+    }
+  ],
+  "gloves": [
+    {
+      "name": "Shadow's Grasp"
+    },
+    {
+      "name": "Soul's Touch"
+    }
+  ],
+  "boots": [
+    {
+      "name": "Molten Walkers"
+    },
+    {
+      "name": "The Final March"
+    }
+  ],
+  "pants": [
+    {
+      "name": "Mistwalker Leggings"
+    },
+    {
+      "name": "Hermit's Leggings"
+    }
+  ],
+  "shoulders": [
+    {
+      "name": "Razorback's Spined Mantle"
+    },
+    {
+      "name": "Guardsman's Spaulders"
+    }
+  ]
+}
