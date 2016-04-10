@@ -1,3 +1,28 @@
 <section class="items">
-    <h1>Items</h1>
+    <md-card layout="column">
+        <md-card-title>
+            <md-card-title-text layout-align="center center">
+                <span class="md-headline">
+                    Add {{$ctrl.slot | capitalize}}
+                </span>
+            </md-card-title-text>
+        </md-card-title>
+
+        <md-card-content>
+            <md-tabs md-stretch-tabs="always">
+                <div ng-repeat="quality in $ctrl.items.getQualities()">
+                    <md-tab label="{{quality | capitalize}}">
+                        <md-list>
+                            <div ng-repeat="item in $ctrl.items.getItems(quality, $ctrl.slot)">
+                                <md-list-item layout layout-align="center center">
+                                    <span flex="90">{{item.name}}</span>    
+                                    <md-icon flex="10" ng-click="$ctrl.equip(item)" class="material-icons">add_circle_outline</md-icon>    
+                                </md-list-item>
+                            </div>
+                        </md-list>
+                    </md-tab>
+                </div>
+            </md-tabs>
+        </md-card-content>
+    </md-card>
 </section>
