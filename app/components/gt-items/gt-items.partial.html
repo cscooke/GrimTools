@@ -19,6 +19,12 @@
                                     <md-icon flex="10" ng-click="$ctrl.equip(item)" class="material-icons">add_circle_outline</md-icon>    
                                 </md-list-item>
                             </div>
+
+                            <div ng-show="!$ctrl.items.getItems(quality, $ctrl.slot).length">
+                                <md-list-item layout layout-align="center center">
+                                    <span>No Items Found.</span>    
+                                </md-list-item>
+                            </div>
                         </md-list>
                     </md-tab>
                 </div>
