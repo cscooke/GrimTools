@@ -1,0 +1,58 @@
+{
+  "helm": [
+    {
+      "name": "Maw of Despair"
+    },
+    {
+      "name": "Dread-Mask of Gurgoth" 
+    }
+  ],
+  "chest": [
+    {
+      "name": "Fiendscale Jacket"
+    },
+    {
+      "name": "Devil's Cage Hauberk"
+    }
+  ],
+  "belt": [
+    {
+      "name": "Voidmancer's Cord"
+    },
+    {
+      "name": "Thorn Girdle of the Misty Glade"
+    }
+  ],
+  "gloves": [
+    {
+      "name": "Voidsteel Gauntlets"
+    },
+    {
+      "name": "Grasp of Unchained Might"
+    }
+  ],
+  "boots": [
+    {
+      "name": "Venomspine Greaves"
+    },
+    {
+      "name": "Wyrmscale Footguard"
+    }
+  ],
+  "pants": [
+    {
+      "name": "Demonbone Legplates"
+    },
+    {
+      "name": "Boneweave Leggings"
+    }
+  ],
+  "shoulders": [
+    {
+      "name": "Fateweaver's Mantle"
+    },
+    {
+      "name": "Divinesteel Shoulderguard"
+    }
+  ]
+}

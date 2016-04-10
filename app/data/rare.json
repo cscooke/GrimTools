@@ -1,0 +1,53 @@
+{
+  "helm": [
+    {
+      "name": "Milton's Casque"
+    },
+    {
+      "name": "Incendiary Casque" 
+    }
+  ],
+  "chest": [
+    {
+      "name": "Murderer's Breastplate"
+    },
+    {
+      "name": "Fleshwarped Platemail"
+    }
+  ],
+  "belt": [
+    {
+      "name": "Shockweave Sash"
+    },
+    {
+      "name": "Bounty Hunter's Girdle"
+    }
+  ],
+  "gloves": [
+    {
+      "name": "Adept's Gloves"
+    },
+    {
+      "name": "Squire's Gauntlets"
+    }
+  ],
+  "boots": [
+    {
+      "name": "Adept's Boots"
+    },
+    {
+      "name": "Squire's Boots"
+    }
+  ],
+  "pants": [
+    
+  ],
+  "shoulders": [
+    {
+      "name": "Isaac's Spaulders"
+    },
+    {
+      "name": "Incendiary Shoulderplates"
+    }
+  ]
+}
