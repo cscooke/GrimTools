@@ -27,8 +27,8 @@ angular.module('grimTools.inventory', [
     };
 
     return {
-      equip: function (item) {
-        slots[item.type] = item;
+      equip: function (slot, item) {
+        slots[slot] = item;
       },
       unequip: function (slot) {
         slots[slot] = null;
@@ -49,10 +49,6 @@ angular.module('grimTools.inventory', [
       var ctrl = this;
 
       ctrl.inventory = gtInventory;
-
-      ctrl.$onInit = function () {
-        ctrl.inventory.equip({name: 'Faceguard of Perdition', type: 'helm'});
-      };
     }
   ]
 })
