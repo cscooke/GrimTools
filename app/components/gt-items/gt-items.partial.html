@@ -9,7 +9,7 @@
         </md-card-title>
 
         <md-card-content>
-            <md-tabs>
+            <md-tabs md-stretch-tabs="always">
                 <div ng-repeat="quality in $ctrl.items.getQualities()">
                     <md-tab label="{{quality | capitalize}}">
                         <md-list>
